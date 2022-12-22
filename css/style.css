@@ -5,7 +5,7 @@
     --azul-marinho-claro: #406692;
     --azul-claro: #E7EEFF;
     --branco: #ffffff;
-    --cinza-escuro: #353535;
+    --cinza-escuro: #535353;
 }
 
 * {
@@ -122,29 +122,28 @@
     padding: 28px 0px;
 }
 
-.first-section h2 {
+.second-article .first-section h2 {
     text-align: center;
     font-size: 60px;
     margin-bottom: 12px;
 }
 
-.first-section P {
+.second-article .first-section P {
     text-align: center;
     color: var(--cinza-escuro);
 }
 
-.second-section {
+.second-article .second-section {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 1px;
     max-width: 1000px;
     width: 95%;
     padding: 48px 0px;
 }
 
-.second-section .container {
+.second-article .second-section .container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -158,7 +157,7 @@
     box-shadow: 10px 10px 26px 0px rgba(199, 199, 199, 0.212);
 }
 
-.second-section .container h3 {
+.second-article .second-section .container h3 {
     font-size: 32px;
     color: var(--azul-marinho);
     position: relative;
@@ -186,11 +185,11 @@
     bottom: 1px;
 }
 
-.second-section .container h4 {
+.second-article .second-section .container h4 {
     font-size: 20px;
 }
 
-.second-section .container p {
+.second-article .second-section .container p {
     font-size: 15px;
     color: var(--cinza-escuro);
 }
@@ -241,4 +240,56 @@
     border-radius: 4px;
     transition: 1s ease-out;
     background-color: var(--azul-marinho-claro);
+}
+
+/* Fourth Article */
+
+.fourth-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 0px;
+}
+
+.fourth-article .first-section h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 12px;
+}
+
+.fourth-article .first-section P {
+    text-align: center;
+    color: var(--cinza-escuro);
+}
+
+.fourth-article .second-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 16px 0px;
+}
+
+.fourth-article .second-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    max-width: 280px;
+    height: 400px;
+    padding: 8px;
+}
+
+.fourth-article .second-section .container img {
+    width: 100%;
+}
+
+.fourth-article .second-section .container h4 {
+    font-size: 28px;
+}
+
+.fourth-article .second-section .container p {
+    font-size: 17px;
+    color: var(--cinza-escuro);
 }

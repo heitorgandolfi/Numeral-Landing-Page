@@ -6,6 +6,7 @@
     --azul-claro: #E7EEFF;
     --branco: #ffffff;
     --cinza-escuro: #535353;
+    --amarelo: #FFE43B;
 }
 
 * {
@@ -163,7 +164,7 @@
     position: relative;
 }
 
-.circle-1{
+.circle-1 {
     position: absolute;
     background-color: var(--azul-claro);
     opacity: .7;
@@ -174,7 +175,7 @@
     bottom: 1px;
 }
 
-.circle-2{
+.circle-2 {
     position: absolute;
     background-color: var(--azul-claro);
     opacity: .7;
@@ -225,8 +226,8 @@
 }
 
 .third-article section button {
-    width: 200px;
-    padding: 20px 4px;
+    width: 160px;
+    padding: 24px 12px;
     border-radius: 8px;
     background-color: var(--azul-marinho);
     border: none;
@@ -292,4 +293,61 @@
 .fourth-article .second-section .container p {
     font-size: 17px;
     color: var(--cinza-escuro);
+}
+
+/* Fifth Article */
+
+.fifth-article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 28px 0px;
+}
+
+.fifth-article section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 520px;
+    width: 100%;
+    margin-left: 64px;
+    padding: 0px 32px;
+}
+
+.fifth-article section h2 {
+    font-size: 60px;
+    margin-bottom: 12px;
+}
+
+.fifth-article section p {
+    max-width: 550px;
+    width: 95%;
+    margin-bottom: 24px;
+    color: var(--cinza-escuro);
+}
+
+.fifth-article section button {
+    width: 160px;
+    padding: 24px 0px;
+    border-radius: 8px;
+    background-color: var(--azul-marinho);
+    border: none;
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.fifth-article section button:hover {
+    border-radius: 4px;
+    transition: 1s ease-out;
+    background-color: var(--azul-marinho-claro);
+}
+
+.fifth-article section .semicircle {
+    position: absolute;
+    width: 115px;
+    right: 0;
+    z-index: -1;
 }

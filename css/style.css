@@ -608,7 +608,8 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    gap: 200px;
+    gap: 100px;
+    margin-top: 28px;
 }
 
 .ninth-article .social-medias p {
@@ -667,7 +668,8 @@
 /* Final Links */
 
 .final-links {
-    width: 1100px;
+    max-width: 1000px;
+    width: 95%;
     margin: 0 auto;
     border-top: 1px solid var(--cinza-escuro)
 }
@@ -676,6 +678,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    flex-wrap: wrap;
     gap: 28px;
     margin-top: 12px;
     padding: 12px;

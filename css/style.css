@@ -401,3 +401,70 @@
     border-radius: 8px;
     box-shadow: 10px 10px 26px 0px rgba(199, 199, 199, 0.212);
 }
+
+/* Seventh Article */
+
+.seventh-article {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    gap: 60px;
+    padding: 28px 0px;
+}
+
+.seventh-article img {
+    border-radius: 12px;
+}
+
+.seventh-article section {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    z-index: 1;
+}
+
+.seventh-article section h2 {
+    font-size: 60px;
+}
+
+.seventh-article section button {
+    width: 160px;
+    padding: 24px 0px;
+    border-radius: 8px;
+    background-color: var(--azul-marinho);
+    border: none;
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.seventh-article section button:hover {
+    border-radius: 4px;
+    transition: 1s ease-out;
+    background-color: var(--azul-marinho-claro);
+}
+
+.seventh-article section .img-1 {
+    width: 500px;
+}
+
+.seventh-article .img-2 {
+    width: 500px;
+    height: 600px;
+}
+
+.seventh-article .img-3 {
+    position: absolute;
+    align-self: center;
+    width: 200px;
+    z-index: 2;
+}
+
+.seventh-article figure .semicircle {
+    position: absolute;
+    left: 0;
+    margin-top: 10%;
+}

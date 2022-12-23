@@ -1,12 +1,14 @@
 :root {
     --rosa: #FFF7F0;
     --preto: #131313;
+    --preto-social-medias: #1A1919;
     --azul-marinho: #112A46;
     --azul-marinho-claro: #406692;
     --azul-claro: #E7EEFF;
     --branco: #ffffff;
     --cinza-escuro: #535353;
     --cinza-claro: #EFEFEF;
+    --cinza-links: #93969C;
     --amarelo: #FFE43B;
     --gelo: #F7F9FD;
 }
@@ -576,7 +578,7 @@
     background-color: var(--azul-marinho-claro);
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -588,5 +590,114 @@
     position: absolute;
     width: 70px;
     right: 0;
-    bottom: 0;
+    bottom: -20px;
+}
+
+/* ================ FOOTER */
+
+.footer {
+    background-color: var(--preto);
+    color: white;
+    padding: 24px;
+}
+
+/* Ninth Article */
+
+.ninth-article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 200px;
+}
+
+.ninth-article .social-medias p {
+    color: var(--cinza-links);
+}
+
+.ninth-article .social-medias i {
+    background-color: var(--preto-social-medias);
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.ninth-article .social-medias i:hover {
+    color: var(--azul-marinho-claro);
+    transition: .5s ease-out;
+}
+
+.ninth-article .social-medias {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.ninth-article .social-medias div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.ninth-article .links {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.ninth-article .links h5 {
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.ninth-article .links li {
+    list-style: none;
+    color: var(--cinza-links);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.ninth-article .links li:hover {
+    text-decoration: underline;
+    opacity: .8;
+}
+
+/* Final Links */
+
+.final-links {
+    width: 1100px;
+    margin: 0 auto;
+    border-top: 1px solid var(--cinza-escuro)
+}
+
+.final-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28px;
+    margin-top: 12px;
+    padding: 12px;
+    font-size: 32px;
+}
+
+.final-links ul li,
+.final-links ul p {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-links);
+}
+
+.final-links ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: .8;
+}
+
+.final-links ul span {
+    font-size: 32px;
+    font-weight: 300;
+    color: var(--cinza-links);
 }

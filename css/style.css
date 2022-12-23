@@ -452,8 +452,8 @@
 }
 
 .seventh-article .img-2 {
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
 }
 
 .seventh-article .img-3 {
@@ -467,4 +467,117 @@
     position: absolute;
     left: 0;
     margin-top: 10%;
+}
+
+/* Eighth Article */
+
+.eighth-article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 12px;
+    background-image: url(../img/background-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.eighth-article section h2 {
+    font-size: 60px;
+    margin-bottom: 24px;
+    color: var(--branco);
+}
+
+.eighth-article section p {
+    max-width: 400px;
+    width: 95%;
+    color: var(--branco);
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 550px;
+    width: 95%;
+    background-color: var(--branco);
+    padding: 32px;
+}
+
+.form-section form img {
+    width: 140px;
+    margin-bottom: 24px;
+}
+
+.form-section form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.form-section .form input {
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid var(--cinza-claro);
+}
+
+.form-section .form input[type="file"] {
+    display: none;
+}
+
+.form-section .form input,
+.form-section .form textarea {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.form-section .form textarea {
+    border: 1px solid var(--cinza-claro);
+}
+
+.form-section .form label {
+    font-size: 14px;
+    color: var(--cinza-escuro);
+    cursor: pointer;
+}
+
+.form-section .form label i {
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+.form h4 {
+    color: var(--cinza-escuro);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.form-btn {
+    width: 160px;
+    padding: 16px 12px;
+    border-radius: 8px;
+    background-color: var(--azul-marinho);
+    border: none;
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    border-radius: 4px;
+    transition: 1s ease-out;
+    background-color: var(--azul-marinho-claro);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 28px;
 }

@@ -317,7 +317,7 @@
 
 @media screen and (max-width: 600px) {
     .second-article .first-section h2 {
-        font-size: 44px;
+        font-size: 40px;
     }
 }
 
@@ -376,7 +376,7 @@
     }
 
     .third-article section h2 {
-        font-size: 44px;
+        font-size: 40px;
     }
 
     .third-article section p {
@@ -459,7 +459,7 @@
 @media screen and (max-width: 600px) {
 
     .fourth-article .first-section h2 {
-        font-size: 44px;
+        font-size: 40px;
     }
 
     .fourth-article .second-section .container h4 {
@@ -541,7 +541,7 @@
     }
 
     .fifth-article section h2 {
-        font-size: 44px;
+        font-size: 40px;
     }
 
     .fifth-article section p {
@@ -619,7 +619,7 @@
 
 @media screen and (max-width: 600px) {
     .sixth-article .first-section h2 {
-        font-size: 44px;
+        font-size: 40px;
     }
 }
 
@@ -720,7 +720,7 @@
 
 @media screen and (max-width: 600px) {
     .seventh-article section h2 {
-        font-size: 44px;
+        font-size: 40px;
     }
 
     .seventh-article .img-2 {
@@ -890,14 +890,14 @@
 
 @media screen and (max-width: 600px) {
     .eighth-article section h2 {
-        font-size: 44px;
+        font-size: 40px;
     }
 }
 
 @media screen and (max-width: 1045px) {
 
-    .eighth-article section h2,
-    p {
+    .eighth-article-h2,
+    .eighth-article-p {
         text-align: center;
     }
 }

@@ -210,7 +210,7 @@
     }
 
     .first-article section h1 {
-        font-size: 56px;
+        font-size: 48px;
     }
 
     .first-article section p {
@@ -221,6 +221,7 @@
 
 @media screen and (max-width: 1173px) {
     .first-article section {
+        text-align: center;
         align-items: center;
     }
 }
@@ -888,9 +889,7 @@
     padding: 24px;
 }
 
-/* Ninth Article */
-
-.ninth-article {
+.footer-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -899,60 +898,58 @@
     margin-top: 28px;
 }
 
-.ninth-article .social-medias p {
+.footer-container .social-medias p {
     color: var(--cinza-links);
 }
 
-.ninth-article .social-medias i {
+.footer-container .social-medias i {
     background-color: var(--preto-social-medias);
     border-radius: 50%;
     padding: 8px;
     cursor: pointer;
 }
 
-.ninth-article .social-medias i:hover {
+.footer-container .social-medias i:hover {
     color: var(--azul-marinho-claro);
     transition: .5s ease-out;
 }
 
-.ninth-article .social-medias {
+.footer-container .social-medias {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
 }
 
-.ninth-article .social-medias div {
+.footer-container .social-medias div {
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
-.ninth-article .links {
+.footer-container .links {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 60px;
 }
 
-.ninth-article .links h5 {
+.footer-container .links h5 {
     font-size: 20px;
     margin-bottom: 28px;
 }
 
-.ninth-article .links li {
+.footer-container .links li {
     list-style: none;
     color: var(--cinza-links);
     margin-bottom: 20px;
     cursor: pointer;
 }
 
-.ninth-article .links li:hover {
+.footer-container .links li:hover {
     text-decoration: underline;
     opacity: .8;
 }
-
-/* Final Links */
 
 .final-links {
     max-width: 1000px;
@@ -990,4 +987,20 @@
     font-size: 24px;
     font-weight: 300;
     color: var(--cinza-links);
+}
+
+@media screen and (max-width: 700px) {
+    .footer-container .links {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1036px) {
+    .footer-container {
+        gap: 60px;
+    }
 }

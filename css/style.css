@@ -389,6 +389,11 @@
     .third-article section {
         align-items: center;
     }
+
+    .third-article section p {
+        text-align: center;
+    }
+
 }
 
 /* Fourth Article */
@@ -397,7 +402,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 28px 0px;
 }
 
 .fourth-article .first-section h2 {
@@ -527,7 +531,6 @@
 
 @media screen and (max-width: 600px) {
     .fifth-article section {
-        align-items: center;
         padding: 0px;
         margin-left: 0px;
     }
@@ -544,6 +547,16 @@
     .fifth-article section p {
         max-width: 400px;
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1097px) {
+    .fifth-article section {
+        align-items: center;
+    }
+
+    .fifth-article section p {
+        text-align: center;
     }
 }
 
@@ -605,10 +618,6 @@
 }
 
 @media screen and (max-width: 600px) {
-    .sixth-article .first-section {
-        text-align: center;
-    }
-
     .sixth-article .first-section h2 {
         font-size: 44px;
     }
@@ -626,6 +635,12 @@
         align-items: center;
         flex-wrap: wrap;
         gap: 12px;
+    }
+}
+
+@media screen and (max-width: 1045px) {
+    .sixth-article .first-section {
+        text-align: center;
     }
 }
 
@@ -704,10 +719,6 @@
 }
 
 @media screen and (max-width: 600px) {
-    .seventh-article section {
-        align-items: center;
-    }
-
     .seventh-article section h2 {
         font-size: 44px;
     }
@@ -726,14 +737,16 @@
     }
 }
 
+@media screen and (max-width: 907px) {
+    .seventh-article section {
+        text-align: center;
+        align-items: center;
+    }
+}
+
 @media screen and (max-width: 959px) {
     .seventh-article {
         gap: 8px;
-    }
-
-    .seventh-article section h2,
-    .seventh-article section button {
-        align-self: center;
     }
 
     .seventh-article .img-3 {
@@ -881,6 +894,14 @@
     }
 }
 
+@media screen and (max-width: 1045px) {
+
+    .eighth-article section h2,
+    p {
+        text-align: center;
+    }
+}
+
 /* ================ FOOTER */
 
 .footer {
@@ -996,6 +1017,13 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: 30px;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    .footer-container .social-medias {
+        align-items: center;
+        text-align: center;
     }
 }
 

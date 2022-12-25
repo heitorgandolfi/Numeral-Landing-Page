@@ -242,6 +242,7 @@
 }
 
 .second-article .first-section P {
+    padding: 4px;
     text-align: center;
     color: var(--cinza-escuro);
 }
@@ -408,11 +409,13 @@
     text-align: center;
     font-size: 60px;
     margin-bottom: 12px;
+    margin-top: 32px;
 }
 
 .fourth-article .first-section P {
     text-align: center;
     color: var(--cinza-escuro);
+    padding: 0px 4px;
 }
 
 .fourth-article .second-section {
@@ -585,6 +588,10 @@
 
 .sixth-article .first-section h2 {
     font-size: 60px;
+}
+
+.sixth-article .first-section p {
+    padding: 0px 4px;
 }
 
 .sixth-article .second-section {

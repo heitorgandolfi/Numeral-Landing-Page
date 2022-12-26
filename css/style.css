@@ -248,6 +248,8 @@ a {
 }
 
 .second-article .first-section P {
+    max-width: 550px;
+    width: 95%;
     padding: 4px;
     text-align: center;
     color: var(--cinza-escuro);
@@ -418,6 +420,8 @@ a {
 }
 
 .fourth-article .first-section P {
+    max-width: 550px;
+    width: 94%;
     text-align: center;
     color: var(--cinza-escuro);
     padding: 0px 4px;

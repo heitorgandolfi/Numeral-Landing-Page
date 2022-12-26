@@ -6,7 +6,6 @@ const subBtn = document.querySelector(".form-btn");
 
 const link = document.getElementsByTagName("a");
 
-
 // Funções
 
 function toggleMenu() {
@@ -22,7 +21,6 @@ function closeMenu() {
 function prevDefault(e) {
     e.preventDefault();
 }
-
 
 // Eventos
 

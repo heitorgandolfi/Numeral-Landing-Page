@@ -44,12 +44,12 @@ a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 28px 0px;
+    padding: 1.75rem 0rem;
     background-color: var(--rosa);
 }
 
 .logo-img {
-    width: 150px;
+    width: 9.375rem;
     cursor: pointer;
 }
 
@@ -57,29 +57,29 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .menu ul li {
     list-style: none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: var(--preto);
 }
 
 .header-btn {
-    padding: 12px 28px;
-    border-radius: 8px;
+    padding: 0.75rem 1.75rem;
+    border-radius: 0.5rem;
     border: none;
     background-color: var(--azul-marinho);
     color: var(--branco);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
 }
 
 .header-btn:hover {
-    border-radius: 4px;
+    border-radius: 0.25rem;
     transition: 1s ease-out;
     background-color: var(--azul-marinho-claro);
 }
@@ -94,7 +94,7 @@ a {
 }
 
 .btn-mobile i {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .close-menu {
@@ -102,7 +102,7 @@ a {
 }
 
 .close-menu i {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--preto);
 }
 
@@ -138,7 +138,7 @@ a {
         right: 0;
         top: 0;
         z-index: 100;
-        padding: 32px;
+        padding: 2rem;
         animation: go-back 1s;
     }
 
@@ -146,11 +146,11 @@ a {
         color: var(--preto);
         background-color: var(--amarelo);
         border-radius: 12px;
-        padding: 12px 20px;
+        padding: 0.75rem 1.25rem;
     }
 
     .menu.active ul li {
-        padding: 16px;
+        padding: 1rem;
         color: var(--preto);
         font-weight: 500;
     }
@@ -164,7 +164,7 @@ a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap-reverse;
-    padding: 28px 0px;
+    padding: 1.75rem 0px;
     background-color: var(--rosa);
 }
 
@@ -178,26 +178,26 @@ a {
 
 .first-article section h1 {
     font-family: 'DM Serif Text', serif;
-    font-size: 72px;
+    font-size: 4.5rem;
     font-weight: lighter;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
 }
 
 .first-article section p {
     max-width: 550px;
     width: 95%;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     color: var(--cinza-escuro);
 }
 
 .first-article section button {
     width: 200px;
-    padding: 20px 4px;
+    padding: 1.25rem 0.25rem;
     border-radius: 8px;
     background-color: var(--azul-marinho);
     border: none;
     color: var(--branco);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
 }
@@ -216,12 +216,12 @@ a {
     }
 
     .first-article section h1 {
-        font-size: 48px;
+        font-size: 3rem;
     }
 
     .first-article section p {
         max-width: 400px;
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
 
@@ -238,19 +238,19 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 28px 0px;
+    padding: 1.75rem 0rem;
 }
 
 .second-article .first-section h2 {
     text-align: center;
-    font-size: 60px;
-    margin-bottom: 12px;
+    font-size: 3.75rem;
+    margin-bottom: 0.75rem;
 }
 
 .second-article .first-section P {
     max-width: 550px;
     width: 95%;
-    padding: 4px;
+    padding: 0.25rem;
     text-align: center;
     color: var(--cinza-escuro);
 }
@@ -272,14 +272,14 @@ a {
     max-width: 210px;
     width: 100%;
     height: 250px;
-    padding: 8px;
-    margin-bottom: 12px;
+    padding: 0.5rem;
+    margin-bottom: 0.75rem;
     border-radius: 12px;
     box-shadow: 10px 10px 26px 0px rgba(199, 199, 199, 0.212);
 }
 
 .second-article .second-section .container h3 {
-    font-size: 32px;
+    font-size: 2rem;
     color: var(--azul-marinho);
     position: relative;
 }
@@ -288,30 +288,30 @@ a {
     position: absolute;
     background-color: var(--azul-claro);
     opacity: .7;
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 23px;
     border-radius: 50%;
-    right: 16px;
-    bottom: 1px;
+    right: 1rem;
+    bottom: 0.0625rem;
 }
 
 .circle-2 {
     position: absolute;
     background-color: var(--azul-claro);
     opacity: .7;
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 23px;
     border-radius: 50%;
-    right: 35px;
-    bottom: 1px;
+    right: 2.0625rem;
+    bottom: 0.0625rem;
 }
 
 .second-article .second-section .container h4 {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .second-article .second-section .container p {
-    font-size: 15px;
+    font-size: 0.9375rem;
     color: var(--cinza-escuro);
 }
 
@@ -325,7 +325,7 @@ a {
 
 @media screen and (max-width: 600px) {
     .second-article .first-section h2 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 }
 
@@ -335,7 +335,7 @@ a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap-reverse;
-    padding: 28px 0px;
+    padding: 1.75rem 0rem;
 }
 
 .third-article section {
@@ -347,25 +347,25 @@ a {
 }
 
 .third-article section h2 {
-    font-size: 60px;
-    margin-bottom: 12px;
+    font-size: 3.75rem;
+    margin-bottom: 0.75rem;
 }
 
 .third-article section p {
     max-width: 550px;
     width: 95%;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     color: var(--cinza-escuro);
 }
 
 .third-article section button {
     width: 160px;
-    padding: 24px 12px;
+    padding: 1.5rem 0.75rem;
     border-radius: 8px;
     background-color: var(--azul-marinho);
     border: none;
     color: var(--branco);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
 }
@@ -384,12 +384,12 @@ a {
     }
 
     .third-article section h2 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .third-article section p {
         max-width: 400px;
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
 
@@ -414,9 +414,9 @@ a {
 
 .fourth-article .first-section h2 {
     text-align: center;
-    font-size: 60px;
-    margin-bottom: 12px;
-    margin-top: 20px;
+    font-size: 3.75rem;
+    margin-bottom: 0.75rem;
+    margin-top: 1.25rem;
 }
 
 .fourth-article .first-section P {
@@ -424,7 +424,7 @@ a {
     width: 94%;
     text-align: center;
     color: var(--cinza-escuro);
-    padding: 0px 4px;
+    padding: 0rem 0.25rem;
 }
 
 .fourth-article .second-section {
@@ -433,7 +433,7 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     max-width: 100%;
-    padding: 0px 0px 16px 0px;
+    padding: 0rem 0rem 1rem 0rem;
 }
 
 .fourth-article .second-section .container {
@@ -444,8 +444,8 @@ a {
     flex-wrap: wrap;
     max-width: 280px;
     height: 400px;
-    padding: 8px;
-    margin-bottom: 0px;
+    padding: 0.5rem;
+    margin-bottom: 0rem;
 }
 
 .fourth-article .second-section .container img {
@@ -453,11 +453,11 @@ a {
 }
 
 .fourth-article .second-section .container h4 {
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .fourth-article .second-section .container p {
-    font-size: 17px;
+    font-size: 1.0625rem;
     color: var(--cinza-escuro);
 }
 
@@ -471,21 +471,21 @@ a {
 @media screen and (max-width: 600px) {
 
     .fourth-article .first-section h2 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .fourth-article .second-section .container h4 {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .fourth-article .second-section .container p {
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 1067px) {
     .fourth-article .first-section h2 {
-        margin-top: 32px;
+        margin-top: 2rem;
     }
 }
 
@@ -495,8 +495,8 @@ a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 24px;
-    padding: 28px 0px;
+    gap: 1.5rem;
+    padding: 1.75rem 0rem;
 }
 
 .fifth-article section {
@@ -505,30 +505,30 @@ a {
     justify-content: center;
     max-width: 520px;
     width: 100%;
-    margin-left: 64px;
-    padding: 0px 32px;
+    margin-left: 4rem;
+    padding: 0rem 2rem;
 }
 
 .fifth-article section h2 {
-    font-size: 60px;
-    margin-bottom: 12px;
+    font-size: 3.75rem;
+    margin-bottom: 0.75rem;
 }
 
 .fifth-article section p {
     max-width: 550px;
     width: 95%;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     color: var(--cinza-escuro);
 }
 
 .fifth-article section button {
     width: 160px;
-    padding: 24px 0px;
+    padding: 1.5rem 0rem;
     border-radius: 8px;
     background-color: var(--azul-marinho);
     border: none;
     color: var(--branco);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
 }
@@ -549,8 +549,8 @@ a {
 
 @media screen and (max-width: 600px) {
     .fifth-article section {
-        padding: 0px;
-        margin-left: 0px;
+        padding: 0rem;
+        margin-left: 0rem;
     }
 
     .fifth-article img {
@@ -559,12 +559,12 @@ a {
     }
 
     .fifth-article section h2 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .fifth-article section p {
         max-width: 400px;
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
 
@@ -585,15 +585,15 @@ a {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 40px;
-    padding: 28px 0px;
+    gap: 2.5rem;
+    padding: 1.75rem 0rem;
     background-color: var(--cinza-claro);
 }
 
 .sixth-article .first-section {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 0.75rem;
     width: 370px;
 }
 
@@ -602,32 +602,32 @@ a {
 }
 
 .sixth-article .first-section h2 {
-    font-size: 60px;
+    font-size: 3.75rem;
 }
 
 .sixth-article .first-section p {
-    padding: 0px 4px;
+    padding: 0rem 0.25rem;
 }
 
 .sixth-article .second-section {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 36px;
+    gap: 2.25rem;
 }
 
 .sixth-article .second-section div p {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    gap: 0.75rem;
     width: 300px;
     max-width: 95%;
-    padding: 32px 0px;
-    font-size: 18px;
+    padding: 2rem 0rem;
+    font-size: 1.125rem;
     font-weight: 700;
-    margin-bottom: 36px;
-    margin-right: 0px;
+    margin-bottom: 2.25rem;
+    margin-right: 0rem;
     background-color: var(--gelo);
     border-radius: 8px;
     box-shadow: 10px 10px 26px 0px rgba(199, 199, 199, 0.212);
@@ -641,7 +641,7 @@ a {
 
 @media screen and (max-width: 600px) {
     .sixth-article .first-section h2 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 }
 
@@ -656,7 +656,7 @@ a {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        gap: 12px;
+        gap: 0.75rem;
     }
 }
 
@@ -674,8 +674,8 @@ a {
     align-items: flex-end;
     justify-content: center;
     flex-wrap: wrap-reverse;
-    gap: 60px;
-    padding: 28px 0px;
+    gap: 3.75rem;
+    padding: 1.75rem 0rem;
 }
 
 .seventh-article img {
@@ -685,7 +685,7 @@ a {
 .seventh-article section {
     display: flex;
     flex-direction: column;
-    gap: 36px;
+    gap: 2.25rem;
     z-index: 1;
 }
 
@@ -695,12 +695,12 @@ a {
 
 .seventh-article section button {
     width: 160px;
-    padding: 24px 0px;
+    padding: 1.5rem 0rem;
     border-radius: 8px;
     background-color: var(--azul-marinho);
     border: none;
     color: var(--branco);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
 }
@@ -742,7 +742,7 @@ a {
 
 @media screen and (max-width: 600px) {
     .seventh-article section h2 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .seventh-article .img-2 {
@@ -766,13 +766,13 @@ a {
     }
 
     .seventh-article section h2 {
-        margin-top: 16px;
+        margin-top: 1rem;
     }
 }
 
 @media screen and (max-width: 959px) {
     .seventh-article {
-        gap: 8px;
+        gap: 0.5rem;
     }
 
     .seventh-article .img-3 {
@@ -793,16 +793,16 @@ a {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 40px;
-    padding: 12px;
+    gap: 2.5rem;
+    padding: 0.75rem;
     background-image: url(../img/background-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .eighth-article section h2 {
-    font-size: 60px;
-    margin-bottom: 24px;
+    font-size: 3.75rem;
+    margin-bottom: 1.5rem;
     color: var(--branco);
 }
 
@@ -810,6 +810,7 @@ a {
     max-width: 400px;
     width: 95%;
     color: var(--branco);
+    font-weight: 300;
 }
 
 .form-section {
@@ -820,12 +821,12 @@ a {
     max-width: 550px;
     width: 95%;
     background-color: var(--branco);
-    padding: 32px;
+    padding: 2rem;
 }
 
 .form-section form img {
     width: 140px;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .form-section form {
@@ -833,11 +834,11 @@ a {
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 0.75rem;
 }
 
 .form-section .form input {
-    padding: 12px;
+    padding: 0.75rem;
     border: none;
     border-bottom: 1px solid var(--cinza-claro);
 }
@@ -857,31 +858,31 @@ a {
 }
 
 .form-section .form label {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: var(--cinza-escuro);
     cursor: pointer;
 }
 
 .form-section .form label i {
-    font-size: 20px;
-    margin-right: 12px;
+    font-size: 1.25rem;
+    margin-right: 0.75rem;
 }
 
 .form h4 {
     color: var(--cinza-escuro);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .form-btn {
     width: 160px;
-    padding: 16px 12px;
+    padding: 1rem 0.75rem;
     border-radius: 8px;
     background-color: var(--azul-marinho);
     border: none;
     color: var(--branco);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
     cursor: pointer;
     z-index: 1;
@@ -897,15 +898,15 @@ a {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 12px;
-    margin-bottom: 28px;
+    gap: 0.75rem;
+    margin-bottom: 1.75rem;
 }
 
 .form-section .form .semicircle {
     position: absolute;
     width: 70px;
     right: 0;
-    bottom: -20px;
+    bottom: -1.25rem;
 }
 
 @media screen and (max-width: 435px) {
@@ -916,7 +917,7 @@ a {
 
 @media screen and (max-width: 600px) {
     .eighth-article section h2 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 }
 
@@ -933,7 +934,7 @@ a {
 .footer {
     background-color: var(--preto);
     color: white;
-    padding: 24px;
+    padding: 1.5rem;
 }
 
 .footer-container {
@@ -941,8 +942,8 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    gap: 100px;
-    margin-top: 28px;
+    gap: 6.25rem;
+    margin-top: 1.75rem;
 }
 
 .footer-container .social-medias p {
@@ -952,7 +953,7 @@ a {
 .footer-container .social-medias i {
     background-color: var(--preto-social-medias);
     border-radius: 50%;
-    padding: 8px;
+    padding: 0.5rem;
     cursor: pointer;
 }
 
@@ -965,31 +966,31 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .footer-container .social-medias div {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .footer-container .links {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 3.75rem;
 }
 
 .footer-container .links h5 {
-    font-size: 20px;
-    margin-bottom: 28px;
+    font-size: 1.25rem;
+    margin-bottom: 1.75rem;
 }
 
 .footer-container .links li {
     list-style: none;
     color: var(--cinza-links);
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     cursor: pointer;
 }
 
@@ -1010,16 +1011,16 @@ a {
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 28px;
-    margin-top: 12px;
-    padding: 12px;
-    font-size: 32px;
+    gap: 1.75rem;
+    margin-top: 0.75rem;
+    padding: 0.75rem;
+    font-size: 2rem;
 }
 
 .final-links ul li,
 .final-links ul p {
     list-style: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: var(--cinza-links);
 }
@@ -1031,7 +1032,7 @@ a {
 }
 
 .final-links ul span {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 300;
     color: var(--cinza-links);
 }
@@ -1042,7 +1043,7 @@ a {
         align-items: flex-start;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 1.875rem;
     }
 }
 
@@ -1055,6 +1056,6 @@ a {
 
 @media screen and (max-width: 1036px) {
     .footer-container {
-        gap: 60px;
+        gap: 3.75rem;
     }
 }

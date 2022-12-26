@@ -8,6 +8,10 @@
     <link rel="shortcut icon" href="./img/logo/favicon.png" type="image/x-icon">
     <title>Numeral</title>
 
+    <!-- AOS -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Font Awesome -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -73,7 +77,7 @@
 
             <section class="second-section">
 
-                <div class="container">
+                <div class="container" data-aos="fade-right">
                     <h3>3K<span class="circle-1"></span></h3>
                     <h4>Case Done</h4>
                     <p>
@@ -82,7 +86,7 @@
                     </p>
                 </div>
 
-                <div class="container">
+                <div class="container" data-aos="fade-left">
                     <h3>55<span class="circle-1"></span></h3>
                     <h4>Happy Customers</h4>
                     <p>
@@ -91,7 +95,7 @@
                     </p>
                 </div>
 
-                <div class="container">
+                <div class="container" data-aos="fade-right">
                     <h3>15+<span class="circle-2"></span></h3>
                     <h4>Award Winning</h4>
                     <p>
@@ -100,7 +104,7 @@
                     </p>
                 </div>
 
-                <div class="container">
+                <div class="container" data-aos="fade-left">
                     <h3>25K<span class="circle-2"></span></h3>
                     <h4>Product & Brand</h4>
                     <p>
@@ -137,7 +141,7 @@
             </section>
 
             <section class="second-section">
-                <div class="container">
+                <div class="container" data-aos="fade-right">
                     <img src="./img/img3.png" alt="">
                     <h4>A single source of truth</h4>
                     <p>
@@ -146,7 +150,7 @@
                     </p>
                 </div>
 
-                <div class="container">
+                <div class="container" data-aos="fade-left">
                     <img src="./img/img4.png" alt="">
                     <h4>The fastest way to organize</h4>
                     <p>
@@ -155,7 +159,7 @@
                     </p>
                 </div>
 
-                <div class="container">
+                <div class="container" data-aos="fade-right">
                     <img src="./img/img5.png" alt="">
                     <h4>The fastest way to a take action</h4>
                     <p>
@@ -164,7 +168,7 @@
                     </p>
                 </div>
 
-                <div class="container">
+                <div class="container" data-aos="fade-left">
                     <img src="./img/img6.png" alt="">
                     <h4>The fastest way to organize</h4>
                     <p>
@@ -199,12 +203,12 @@
             </section>
             <section class="second-section">
                 <div>
-                    <p><img src="./img/clients/client-1.png" alt=""> Hubo</p>
-                    <p><img src="./img/clients/client-2.png" alt=""> Amazon</p>
+                    <p data-aos="zoom-in"><img src="./img/clients/client-1.png" alt=""> Hubo</p>
+                    <p data-aos="zoom-in"><img src="./img/clients/client-2.png" alt=""> Amazon</p>
                 </div>
                 <div>
-                    <p><img src="./img/clients/client-3.png" alt=""> Logoi</p>
-                    <p><img src="./img/clients/client-4.png" alt=""> Slack</p>
+                    <p data-aos="zoom-in"><img src="./img/clients/client-3.png" alt=""> Logoi</p>
+                    <p data-aos="zoom-in"><img src="./img/clients/client-4.png" alt=""> Slack</p>
                 </div>
             </section>
         </article>
@@ -242,7 +246,7 @@
                         <input type="email" placeholder="Email">
                         <input type="tel" placeholder="Phone number">
                     </div>
-                    <textarea style="resize: vertical" name="" id="" cols="25" rows="2"
+                    <textarea style="resize: none" name="" id="" cols="25" rows="5"
                         placeholder="About your project"></textarea>
 
                     <label for="file"><i class="fa-solid fa-paperclip"></i>Add attachment</label>
@@ -341,7 +345,11 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

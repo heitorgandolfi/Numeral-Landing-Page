@@ -1,4 +1,4 @@
-# ArtWork Landing Page
+# Numeral Landing Page
 
 <div align="center">
 

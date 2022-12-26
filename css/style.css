@@ -20,13 +20,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* =========== Animation */
 
 @keyframes go-back {
     0% {
         transform: translateX(100px);
     }
-
     100% {
         transform: translateX(0);
     }
@@ -254,7 +258,6 @@
     flex-wrap: wrap;
     max-width: 1000px;
     width: 95%;
-    padding: 48px 0px;
 }
 
 .second-article .second-section .container {
@@ -409,7 +412,7 @@
     text-align: center;
     font-size: 60px;
     margin-bottom: 12px;
-    margin-top: 32px;
+    margin-top: 20px;
 }
 
 .fourth-article .first-section P {
@@ -471,6 +474,12 @@
 
     .fourth-article .second-section .container p {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1067px) {
+    .fourth-article .first-section h2 {
+        margin-top: 32px;
     }
 }
 
@@ -748,6 +757,10 @@
     .seventh-article section {
         text-align: center;
         align-items: center;
+    }
+
+    .seventh-article section h2 {
+        margin-top: 16px;
     }
 }
 

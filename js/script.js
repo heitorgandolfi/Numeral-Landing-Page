@@ -31,5 +31,5 @@ closeBtn.addEventListener("click", closeMenu);
 subBtn.addEventListener("click", prevDefault);
 
 for (i = 0; i <= link.length; i++) {
-    link[i].addEventListener("click", prevDefault);
+    link[i]?.addEventListener("click", prevDefault);
 }

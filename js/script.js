@@ -1,19 +1,12 @@
 const btnMobile = document.querySelector(".btn-mobile");
-
 const closeBtn = document.querySelector(".close-menu");
-
 const subBtn = document.querySelector(".form-btn");
-
-const link = document.getElementsByTagName("a");
+const links = Array.from(document.getElementsByTagName("a"));
+console.log(links)
 
 // Funções
 
 function toggleMenu() {
-    const navMenu = document.querySelector(".menu");
-    navMenu.classList.toggle("active");
-}
-
-function closeMenu() {
     const navMenu = document.querySelector(".menu");
     navMenu.classList.toggle("active");
 }
@@ -25,11 +18,5 @@ function prevDefault(e) {
 // Eventos
 
 btnMobile.addEventListener("click", toggleMenu);
-
-closeBtn.addEventListener("click", closeMenu);
-
-subBtn.addEventListener("click", prevDefault);
-
-for (i = 0; i <= link.length; i++) {
-    link[i]?.addEventListener("click", prevDefault);
-}
+closeBtn.addEventListener("click", toggleMenu);
+links.map((link) => link.addEventListener("click", prevDefault));

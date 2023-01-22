@@ -1,5 +1,7 @@
 # Numeral Landing Page
 
+<img src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=green&style=for-the-badge"/> <img src="http://img.shields.io/static/v1?label=release%20date&message=december%202022&color=YELLOW&style=for-the-badge"/> <img src="http://img.shields.io/static/v1?label=license&message=MIT&color=informational&style=for-the-badge"/>
+
 <div align="center">
 
 <img src="https://user-images.githubusercontent.com/113437603/209563515-d2883cf7-c94f-45fd-a880-2ff71d955600.png" width="760px">

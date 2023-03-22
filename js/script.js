@@ -2,7 +2,6 @@ const btnMobile = document.querySelector(".btn-mobile");
 const closeBtn = document.querySelector(".close-menu");
 const subBtn = document.querySelector(".form-btn");
 const links = Array.from(document.getElementsByTagName("a"));
-console.log(links)
 
 // Funções
 
